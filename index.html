@@ -3,60 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Особистий вебсайт Собко Данило Олександрович</title>
+    <title>Особистий вебсайт</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>Особистий вебсайт Собко Данило Олександрович</h1>
+        <h1>Вітаю на моєму вебсайті!</h1>
     </header>
 
     <!-- Navigation Menu -->
     <nav>
         <ul>
-            <li><a href="#home">Головна</a></li>
             <li><a href="#about">Про мене</a></li>
             <li><a href="#practical">Практичні роботи</a></li>
             <li><a href="#lab">Лабораторні заняття</a></li>
         </ul>
     </nav>
 
-    <!-- About Section -->
     <section id="about">
         <h2>Про мене</h2>
-        <img src="images/photo.jpg" alt="Фото студента" class="profile-photo">
-        <p>Ім'я: Данило</p>
-        <p>Контактні дані: danilsobko2005@gmail.com</p>
-        <p>Коротка біографія: Я студент другого курсу Державного університету інформаційно-комунікаційних технологій (ДУІКТ), навчаюсь за спеціальністю «Інженерії програмна забезпечення». У вільний час займаюсь спортом, адже вважаю його важливою частиною активного та здорового життя..</p>
+        <div class="about-content">
+            <div class="about-info">
+                <p><strong>Привіт! Мене звати Данило.</strong></p>
+                <p>Я студент другого курсу Державного університету інформаційно-комунікаційних технологій (ДУІКТ), спеціальність «Інженерія програмного забезпечення».</p>
+                <p>У вільний час я займаюся спортом, саморозвитком та виконую цікаві завдання.</p>
+            </div>
+            <div class="about-photo">
+                <img src="images/photo.jpg" alt="Моє фото">
+            </div>
+        </div>
     </section>
+    
 
-    <!-- Practical Works Section -->
-    <section id="practical">
+    <!-- Practical Tasks Section -->
+    <section id="practical" class="dark-background">
         <h2>Практичні роботи</h2>
-        <ul>
-            <li><a href="Розклад/index.html" target="_blank">Практична робота №1</a>
-            <li><a href="YouTube/index.html" target="_blank">Практична робота №3</a>
-            <li><a href="Клавіатура/index.html" target="_blank">Практична робота №4</a>
-        </ul>
+        <div class="practical-tasks">
 
-        <!-- Table for Practical Work #1 -->
-    </section>
+            <div class="practical-task">
+                <img src="images/practical1.png" alt="Практична робота №1">
+                <div class="task-info">
+                    <h4>Практична робота №1</h4>
+                    <p>Зробити проект з веб-розробки</p>
+                </div>
+                <a href="practical1.html" class="button">Перейти</a>
+            </div>
 
-    <!-- Lab Section -->
-    <section id="lab">
+            <div class="practical-task">
+                <img src="images/practical3.png" alt="Практична робота №3">
+                <div class="task-info">
+                    <h4>Практична робота №3</h4>
+                    <p>Розробити базу даних для студентів</p>
+                </div>
+                <a href="practical3.html" class="button">Перейти</a>
+            </div>
+
+            <div class="practical-task">
+                <img src="images/practical4.png" alt="Практична робота №4">
+                <div class="task-info">
+                    <h4>Практична робота №4</h4>
+                    <p>Зробити проект з веб-розробки</p>
+                </div>
+                <a href="practical4.html" class="button">Перейти</a>
+            </div>
+        </div>
+
+    <!-- Lab Works Section -->
+    <section id="lab" class="dark-background">
         <h2>Лабораторні заняття</h2>
-        <ul>
-            <li><a href="Registration-form/index.html" target="_blank">Лабораторна робота №1</a>
-            <li><a href="Laba2/index.html" target="_blank">Лабораторна робота №2</a>
-            <li><a href="YouTube/index.html" target="_blank">Лабораторна робота №3</a> 
-            <li><a href="Планер/index.html" target="_blank">Лабораторна робота №4</a>
-        </ul>
+        <div class="laba-tasks">
+
+            <div class="laba-task">
+                <img src="images/lab1.png" alt="Лабораторна робота №1">
+                <div class="task-info">
+                    <h4>Лабораторна робота №1</h4>
+                    <p>Створити форму реєстрації</p>
+                </div>
+                <a href="lab1.html" class="button">Перейти</a>
+            </div>
+
+            <div class="laba-task">
+                <img src="images/lab2.png" alt="Лабораторна робота №2">
+                <div class="task-info">
+                    <h4>Лабораторна робота №2</h4>
+                    <p>Зробити CSS Selectors Challenge</p>
+                </div>
+                <a href="lab2.html" class="button">Перейти</a>
+            </div>
+
+            <div class="laba-tasks">
+                <div class="laba-task">
+                    <img src="images/lab3.png" alt="Лабораторна робота №3">
+                    <div class="task-info">
+                        <h4>Лабораторна робота №3</h4>
+                        <p>Створити форму реєстрації</p>
+                    </div>
+                    <a href="lab3.html" class="button">Перейти</a>
+                </div>
+
+                <div class="laba-tasks">
+                    <div class="laba-task">
+                        <img src="images/lab4.png" alt="Лабораторна робота №4">
+                        <div class="task-info">
+                            <h4>Лабораторна робота №4</h4>
+                            <p>Створити форму реєстрації</p>
+                        </div>
+                        <a href="lab4 .html" class="button">Перейти</a>
+                    </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>Контакт: danilsobko2005@gmail.com | Роки навчання: 2023-2027 | <a href="https://github.com/student">GitHub</a></p>
+        <div class="social-icons">
+            <a href="https://t.me/DANIA_s_o" target="_blank">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.instagram.com/dania_s.o/profilecard/?igsh=Z2ZkbWtrcDE5YnA0" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </footer>
+    
 </body>
 </html>
