@@ -76,7 +76,27 @@ td {
         padding: 10px;
     }
 
-    table, th, td {
-        font-size: 14px;
-    }
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 12px;
+    background-color: rgb(70, 161, 221);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.back-button i {
+    margin-right: 5px;
+}
+
+.back-button:hover {
+    background-color: #4CAF50;
 }
